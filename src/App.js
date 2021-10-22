@@ -49,14 +49,17 @@ const Div3 = styled.div`
 
 function App() {
 
-  const [number, setNumber] = React.useState('');
+  const [number, setNumber] = React.useState(null);
+  const [carregando, setCarregando] = React.useState(null);
 
   async function handleClick(e) {
+    setCarregando(true);
     let NumeroDoCep = number;
 
     const response = await fetch(`https://viacep.com.br/ws/${NumeroDoCep}/json/`);
     const json = await response.json();
     setNumber(json)
+    setCarregando(false);
   }
 
   return (
@@ -71,8 +74,8 @@ function App() {
           />
           <Button onClick={handleClick}>Buscar</Button>
         </Div3>
-
-        <Input number={number} />
+        {carregando && <p>Carregando...</p>}
+        {!carregando && number && <Input number={number} />}
       </Div2>
     </Div>
   );
