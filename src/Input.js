@@ -28,7 +28,7 @@ function Input({ number }) {
       <span>Bairro: {number.bairro}</span>
       <span>Localidade: {number.localidade}</span>
       <span>UF: {number.uf}</span>
-      <span>CEP: {number.cep}</span>
+  <span>CEP: {number.cep}</span>
       </Div2>
     </Div>
   )
