@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/github-page/static/css/main.1ec6df47.chunk.css",
-    "main.js": "/github-page/static/js/main.a38c8669.chunk.js",
-    "main.js.map": "/github-page/static/js/main.a38c8669.chunk.js.map",
-    "runtime-main.js": "/github-page/static/js/runtime-main.e0affacd.js",
-    "runtime-main.js.map": "/github-page/static/js/runtime-main.e0affacd.js.map",
-    "static/js/2.1516e384.chunk.js": "/github-page/static/js/2.1516e384.chunk.js",
-    "static/js/2.1516e384.chunk.js.map": "/github-page/static/js/2.1516e384.chunk.js.map",
-    "index.html": "/github-page/index.html",
-    "static/css/main.1ec6df47.chunk.css.map": "/github-page/static/css/main.1ec6df47.chunk.css.map",
-    "static/js/2.1516e384.chunk.js.LICENSE.txt": "/github-page/static/js/2.1516e384.chunk.js.LICENSE.txt"
+    "main.css": "/cep-react/static/css/main.1ec6df47.chunk.css",
+    "main.js": "/cep-react/static/js/main.a38c8669.chunk.js",
+    "main.js.map": "/cep-react/static/js/main.a38c8669.chunk.js.map",
+    "runtime-main.js": "/cep-react/static/js/runtime-main.40ac9285.js",
+    "runtime-main.js.map": "/cep-react/static/js/runtime-main.40ac9285.js.map",
+    "static/js/2.c96d74d3.chunk.js": "/cep-react/static/js/2.c96d74d3.chunk.js",
+    "static/js/2.c96d74d3.chunk.js.map": "/cep-react/static/js/2.c96d74d3.chunk.js.map",
+    "index.html": "/cep-react/index.html",
+    "static/css/main.1ec6df47.chunk.css.map": "/cep-react/static/css/main.1ec6df47.chunk.css.map",
+    "static/js/2.c96d74d3.chunk.js.LICENSE.txt": "/cep-react/static/js/2.c96d74d3.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.e0affacd.js",
-    "static/js/2.1516e384.chunk.js",
+    "static/js/runtime-main.40ac9285.js",
+    "static/js/2.c96d74d3.chunk.js",
     "static/css/main.1ec6df47.chunk.css",
     "static/js/main.a38c8669.chunk.js"
   ]
